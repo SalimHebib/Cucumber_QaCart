@@ -29,7 +29,7 @@ public class LoginSteps extends Base {
     }
 
     @Then("user should navigate to home page")
-    public void userShouldNavigateToHomePage() throws InterruptedException {
+    public void userShouldNavigateToHomePage() {
 
         homePage.logoIsDisplayed();
 
